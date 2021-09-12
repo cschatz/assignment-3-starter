@@ -43,9 +43,11 @@ public class Scheduler {
 		// Remove the first task from the list
 	}
 	
-	public void rotate() {
+	private void rotate() {
 		// TO DO:
 		// Rotate the list, unless the list is empty
+		// (Hint: Read the section on singly linked lists in the book.
+		//        Rotating only requires changing one reference.)
 	}
 	
 	public void addTask(String name, int timeNeeded) {
